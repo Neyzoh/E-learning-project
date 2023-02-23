@@ -1,0 +1,28 @@
+// Course
+.course {
+	// width: 380px;
+	height: 220px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	margin-bottom: 10rem;
+}
+
+.course video {
+	transition: all 0.5s;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.course h4 {
+	font-size: 18px;
+}
+
+.course .author-and-price span {
+	font-size: 25px;
+	font-weight: 500;
+	color: #457B9D;
+}
+
+.course video:hover {
+	transform: scale(1.05);
+}

@@ -1,0 +1,13 @@
+@use 'reset';
+
+.main{
+    justify-content: center;
+    background-color: white;
+    overflow: auto;
+    z-index: -1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

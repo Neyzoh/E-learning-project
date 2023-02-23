@@ -1,0 +1,52 @@
+// Background Layer
+.background-layer {
+    position: absolute;
+    top: 0;
+    height: 25rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 40%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 40%, 0 80%);
+}
+
+
+// Video
+.interface-video {
+    height: 600px;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.interface-video video {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+// Video Content
+.video-content {
+    height: 400px;
+}
+
+.video-content p:nth-of-type(2) {
+    text-overflow: ellipsis;
+    text-decoration: underline;
+}
+
+.video-content ul {
+    list-style-type: disc;
+}
+
+.video-content ul li {
+    margin-bottom: .5rem;
+}
+
+// Responsive
+@media only screen and (min-width: 300px) {
+    .video-content ul {
+        list-style-type: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .video-content ul {
+        list-style-type: disc;
+    }
+}

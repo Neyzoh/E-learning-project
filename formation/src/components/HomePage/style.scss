@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Inter', sans-serif; ;
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+}
+
+.home{
+  height: 82vh;
+  padding-top: 30px;
+  margin: 0;
+  background-image: url('../../assets/home.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+
+
+  &-top{
+    justify-content: space-evenly;
+  }
+
+  &-title{
+    margin: 0px 0px 1rem;
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    letter-spacing: 0px;
+    padding-left: 15px;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  &-low-title{
+    margin: 0px 0px 1rem;
+    font-family: Inter, Inter-Medium;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px ;
+    font-size: 1rem;
+    margin: 5%;
+    line-height: 27px;
+    padding-top: 50px;
+    font-weight: 500;
+  }
+
+}
+
+.frosted {
+	z-index: 2;
+	backdrop-filter: blur(4px);
+	color: #fff;
+	font-size: 30px;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.5);
+  margin-top: 20%;
+}
+
+.btn-home{
+  background-color: #1a83c4;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 15%;
+  margin-right: 40px;
+}
+
+@media screen and (min-device-width: 769px) {
+    .home{
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+
+      &-top{
+       margin: 100px;
+       margin-top: -180px;
+      }
+    }
+
+    .btn-home{
+      padding: 20px 40px;
+      margin-top: 90px;
+    }
+}
+

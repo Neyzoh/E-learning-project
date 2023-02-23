@@ -1,0 +1,18 @@
+.body-404{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/page404.png');
+    background-size: cover;
+    background-position: center;
+    // align-items: center;
+    overflow: hidden;
+    font-size: 2em;
+
+    &-paragraph{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+}
+
+

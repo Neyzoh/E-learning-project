@@ -1,0 +1,207 @@
+
+
+
+
+.sign-page{
+    // background-color: rgb(240, 248, 255);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    height: calc(100vh - 130px);
+    width: 250px;
+
+    &-background {
+        background-image: url('../../assets/Background_web.png');
+        background-size: cover;
+        // background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+
+    &-title {
+        text-align: center;
+        width: 100%;
+        color: white;
+        background-color: #5498c2;
+        padding: 7px 0px;
+        margin: 1em 0;
+    }
+
+    &-paragraph{
+        padding: 20px;
+        font-size: 0.7rem;
+    }
+
+    &-redirect {
+        text-align: center;
+        font-size: 0.8rem;
+        margin: 0;
+
+        &Password{
+            font-size: .8em;
+        }
+      }
+}
+
+.redirect-page{
+    text-align: center;
+}
+
+.inscription{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.form-sign{
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px 4px 0px;
+    margin: 10px;
+    align-items: center;
+
+    &-input{
+        margin: 10px 0 ;
+        border:1px solid transparent;
+        border-radius: .2em;
+        outline: 0;
+        box-shadow: 1px 2px 5px 3px #14160769;
+        padding: 4px;
+    } 
+
+     &-input:focus {
+         border: 1px solid #457B9D;
+     }
+     
+    &-input::placeholder{
+        font-size: .7em;
+    }
+
+    &-label{
+        display: flex;
+        align-items: baseline;
+        font-size: .7em;
+        gap: 1em;
+        margin-top: 1em;
+    }
+
+    &-button{
+        width: 10em;
+        margin-top: 1em;
+        background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+        border-radius: .5rem;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        display: flex;
+        font-size: 1em;
+        justify-content: center;
+        padding: 8px 6px;
+        text-decoration: none;
+        width: 70%;
+        border: 0;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (min-device-width: 768px) {
+    .signUp-page{
+        width: 30vw;
+    
+
+        &-title {
+        }
+    }
+
+    .form-signUp{
+        
+    
+        &-input{
+
+        } 
+    
+         &-input:focus {
+         }
+         
+        &-input::placeholder{
+        }
+    
+        &-checkbox{
+    
+        }
+    
+        &-button{
+        }
+    
+        &-label{
+        }
+    
+    
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (min-device-width: 501px), (max-device-width: 599px) {
+    .signUp-page{
+    
+
+        &-title {
+            margin: 0;
+        }
+    }
+
+    .form-signUp{
+        
+    
+        &-input{
+
+        } 
+    
+         &-input:focus {
+         }
+         
+        &-input::placeholder{
+        }
+    
+        &-checkbox{
+    
+        }
+    
+        &-button{
+        }
+    
+        &-label{
+        }
+    
+    
+    }
+
+}
+
+
+@media screen and (min-device-width: 768px) {
+    .sign-page{
+        max-width: 30vw;
+        min-width: 20vw;
+        max-height: 65vh;
+        display: flex;
+        margin-top: 60px;
+        justify-content: center;
+
+
+        &-background{
+            width: 100vw;
+            min-height: 82vh;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

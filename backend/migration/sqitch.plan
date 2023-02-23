@@ -1,0 +1,8 @@
+%syntax-version=1.0.0
+%project=formation
+%uri=http://formation.io/
+
+structure 2022-12-01T17:25:55Z Zijun HE <zhzh2022@outlook.fr> # structure of database
+constraint 2022-12-02T14:02:29Z Nathanael Rayapin <nathanael.rayapin@gmail.com> # Add contraint for table validity
+view 2022-12-02T16:21:22Z Nathanael Rayapin <nathanael.rayapin@gmail.com> # View for retrieve Join tables
+functions 2022-12-03T11:45:28Z Nathanael Rayapin <nathanael.rayapin@gmail.com> # Implement function for import and update our models

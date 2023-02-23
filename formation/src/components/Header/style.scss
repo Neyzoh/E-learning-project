@@ -1,0 +1,27 @@
+.header{
+    background-color: #fff;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10 10px;
+    border-bottom: 0.3px solid rgba(0, 0, 0, 0.187);
+    z-index: 9999;
+
+    &-logo{
+        background-image: url(../../../public/zn5m.png);
+        background-repeat: no-repeat;
+        margin-top: 2px;
+        margin-left: 7px;
+        background-size: 150px;
+        width: 150px;
+        height: 65px;
+        display: flex;
+        // CSS for the logo with blue background
+        // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        // border-radius: 4px;
+    }
+}
+
